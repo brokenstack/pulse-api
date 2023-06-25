@@ -1,1 +1,5 @@
-GET http://localhost:8080/api/posts 
+GET http://localhost:8080/api/posts?page=3&pageSize=2
+
+
+####
+GET https://dead-rabbit-10.deno.dev/api/posts
