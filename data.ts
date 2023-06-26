@@ -507,7 +507,9 @@ export const data = [
     "text": "Introducing our latest product.",
     "attachment_type": "image",
     "attachments": [
-      "https://example.com/image1.jpg",
+      "https://images.unsplash.com/photo-1687084626949-93a5e1555fcf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "https://images.unsplash.com/photo-1687320565719-dfa288b1e7bb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "https://images.unsplash.com/photo-1687447156365-d9eae3902596?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
     ],
     "comments": [
       {
