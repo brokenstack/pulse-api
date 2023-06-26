@@ -287,7 +287,7 @@ export const old = [
   },
 ];
 
-export const data = [
+export const old2 = [
   {
     "author_image": "https://i.pravatar.cc/700",
     "author_name": "Elena Jones",
@@ -519,5 +519,243 @@ export const data = [
         "likes": 4,
       },
     ],
+  },
+];
+
+const data = [
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Elena Jones",
+    "post_type": "Question",
+    "likes": 1300,
+    "text":
+      "What a beautiful day it is today! The sun is shining, birds are chirping, and the flowers are blooming. I'm feeling so grateful for this wonderful weather.",
+    "attachment_type": "image",
+    "attachments": [
+      "https://images.unsplash.com/photo-1687579520892-5160c0df4b3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60",
+      "https://images.unsplash.com/photo-1687166783902-45947281f59d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60",
+      "https://images.unsplash.com/photo-1687565021770-cdb4e32002a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "random string",
+        "likes": 10,
+      },
+    ],
+    "postedOn": "2 hours ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Maxwell Smith",
+    "post_type": "Marketing",
+    "likes": 783,
+    "text":
+      "Check out our latest marketing campaign! We have exciting offers and discounts for you. Don't miss out on these amazing deals. Visit our website for more details.",
+    "attachment_type": "image",
+    "attachments": [
+      "https://images.unsplash.com/photo-1536395653943-12ed8526f026?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "Great post!",
+        "likes": 20,
+      },
+      {
+        "username": "Jane Smith",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I love it!",
+        "likes": 15,
+      },
+    ],
+    "postedOn": "12 Mar 2020",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Sophia Brown",
+    "post_type": "Question",
+    "likes": 950,
+    "text":
+      "I need some book recommendations for my summer reading list. I enjoy a mix of mystery, romance, and fantasy genres. Any suggestions?",
+    "attachment_type": "video",
+    "attachments": [
+      "https://example.com/video1.mp4",
+      "https://example.com/video2.mp4",
+    ],
+    "comments": [],
+    "postedOn": "2 days ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Oliver Johnson",
+    "post_type": "Marketing",
+    "likes": 412,
+    "text":
+      "Huge clearance sale happening now! Get up to 70% off on selected items. Don't miss this opportunity to grab some incredible deals.",
+    "attachment_type": "image",
+    "attachments": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I've already started shopping!",
+        "likes": 9,
+      },
+      {
+        "username": "Emma Wilson",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "Thanks for the heads up!",
+        "likes": 7,
+      },
+    ],
+    "postedOn": "1 week ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Mia Davis",
+    "post_type": "Question",
+    "likes": 230,
+    "text":
+      "What's your favorite TV show or series? I'm looking for some recommendations to binge-watch during the weekend.",
+    "attachment_type": "image",
+    "attachments": [
+      "https://images.unsplash.com/photo-1687383023903-a1196a5ffd90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8eEh4WVRNSExnT2N8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+      "https://images.unsplash.com/photo-1687120327990-058e7a62d525?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDR8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I highly recommend 'Stranger Things'!",
+        "likes": 12,
+      },
+      {
+        "username": "Sarah Johnson",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "You should watch 'Breaking Bad'. It's amazing!",
+        "likes": 8,
+      },
+    ],
+    "postedOn": "3 hours ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Lucas Thompson",
+    "post_type": "Marketing",
+    "likes": 645,
+    "text":
+      "New arrivals just landed! Explore our latest collection and stay trendy. We have something for everyone. Shop now and upgrade your wardrobe.",
+    "attachment_type": "video",
+    "attachments": [
+      "https://example.com/video1.mp4",
+      "https://example.com/video2.mp4",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I can't wait to see the new collection!",
+        "likes": 14,
+      },
+      {
+        "username": "Emma Davis",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "The videos look fantastic!",
+        "likes": 10,
+      },
+    ],
+    "postedOn": "4 months ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Henry Wilson",
+    "post_type": "Question",
+    "likes": 860,
+    "text":
+      "I'm planning a trip to Europe and would love some travel recommendations. Which cities or countries would you suggest visiting?",
+    "attachment_type": "image",
+    "attachments": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image3.jpg",
+    ],
+    "comments": [],
+    "postedOn": "1 month ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Emily Anderson",
+    "post_type": "Marketing",
+    "likes": 320,
+    "text":
+      "Exciting news! We're launching a new product next week. Stay tuned for updates and be the first to get your hands on it.",
+    "attachment_type": "audio",
+    "attachments": [
+      "https://example.com/audio1.mp3",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "Can't wait for the launch!",
+        "likes": 5,
+      },
+    ],
+    "postedOn": "1 day ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Charlotte Taylor",
+    "post_type": "Question",
+    "likes": 540,
+    "text":
+      "What's your favorite recipe? I'm in the mood for trying something new in the kitchen.",
+    "attachment_type": "video",
+    "attachments": [
+      "https://example.com/video1.mp4",
+      "https://example.com/video2.mp4",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I love making homemade pizza!",
+        "likes": 6,
+      },
+      {
+        "username": "Emma Wilson",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "You should try making chocolate lava cake. It's delicious!",
+        "likes": 4,
+      },
+    ],
+    "postedOn": "6 days ago",
+  },
+  {
+    "author_image": "https://i.pravatar.cc/700",
+    "author_name": "Daniel Johnson",
+    "post_type": "Marketing",
+    "likes": 120,
+    "text":
+      "Limited-time offer! Get a free gift with every purchase. Hurry up and shop now before it's too late.",
+    "attachment_type": "image",
+    "attachments": [
+      "https://images.unsplash.com/photo-1680320565397-10686d915f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Ym84alFLVGFFMFl8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+    ],
+    "comments": [
+      {
+        "username": "John Doe",
+        "user_image": "https://i.pravatar.cc/700",
+        "comment": "I love free gifts!",
+        "likes": 3,
+      },
+    ],
+    "postedOn": "5 hours ago",
   },
 ];
