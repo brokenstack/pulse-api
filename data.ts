@@ -522,7 +522,7 @@ export const old2 = [
   },
 ];
 
-const data = [
+export const data = [
   {
     "author_image": "https://i.pravatar.cc/700",
     "author_name": "Elena Jones",
